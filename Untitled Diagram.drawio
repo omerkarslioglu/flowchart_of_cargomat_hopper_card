@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T09:37:32.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 OPR/74.0.3911.203" etag="ymUSeh9Tkz83Lsta0Z1X" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-15T10:07:03.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 OPR/74.0.3911.203" etag="48i9AbJ0b3ZYQFXuabFT" version="14.4.8" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="2074" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="5971" dy="3750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,18 +38,18 @@
             <mxPoint x="-340" y="-370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D5FVr0X5BtPUz_qfZQi5-6" value="canbus_open_lock_flag&lt;br&gt;&lt;br&gt;lock_current_analog_value&lt;br&gt;sw_open_door_state&lt;br&gt;sw_close_door_state&lt;br&gt;lights_flag&lt;br&gt;rgb_led_state&lt;br&gt;sensor1_stae&lt;br&gt;sensor2_state&lt;br&gt;sensor3_state" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-6" value="canbus_open_lock_msg&lt;br&gt;canbus_object_msg&lt;br&gt;&lt;br&gt;lock_current_analog_value&lt;br&gt;sw_open_door_state&lt;br&gt;sw_close_door_state&lt;br&gt;lights_flag&lt;br&gt;rgb_led_state&lt;br&gt;sensor1_stae&lt;br&gt;sensor2_state&lt;br&gt;sensor3_state" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="-287.5" y="-450" width="275" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="D5FVr0X5BtPUz_qfZQi5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-11" target="D5FVr0X5BtPUz_qfZQi5-23">
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-11" target="D5FVr0X5BtPUz_qfZQi5-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-150" y="20" as="targetPoint" />
+            <mxPoint x="-150" y="170" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-21" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5FVr0X5BtPUz_qfZQi5-15">
           <mxGeometry x="-0.6909" y="-1" relative="1" as="geometry">
-            <mxPoint x="1" y="19" as="offset" />
+            <mxPoint x="0.9" y="81.1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-11" target="D5FVr0X5BtPUz_qfZQi5-17">
@@ -65,7 +65,7 @@
             <mxPoint x="22.5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D5FVr0X5BtPUz_qfZQi5-11" value="Is there open lock message ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-11" value="Is there open lock message ?&lt;br&gt;canbus_open_lock_msg" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-238.75" y="-220" width="177.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-17" target="D5FVr0X5BtPUz_qfZQi5-32">
@@ -73,12 +73,6 @@
         </mxCell>
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-17" value="rgb_led_state=green // empty&lt;br&gt;lights_flag=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-510" y="-405" width="170" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="D5FVr0X5BtPUz_qfZQi5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-23" target="D5FVr0X5BtPUz_qfZQi5-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="D5FVr0X5BtPUz_qfZQi5-23" value="&lt;span&gt;canbus_open_lock_flag=1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-237.5" y="30" width="175" height="90" as="geometry" />
         </mxCell>
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-26" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-24">
           <mxGeometry relative="1" as="geometry">
@@ -257,11 +251,95 @@
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-96" value="Start the Timer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D5FVr0X5BtPUz_qfZQi5-100" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Send message&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;on bus&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;( &quot;Put the object and close the door .&quot; )&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-100" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Send message&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;on bus (for user)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;( &quot;Put the object and close the door .&quot; )&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="425" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-103" value="Stop the Timer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="-32.5" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-118" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-106" target="D5FVr0X5BtPUz_qfZQi5-117">
+          <mxGeometry x="-0.5084" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1150" />
+              <mxPoint x="550" y="1240" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-106" target="D5FVr0X5BtPUz_qfZQi5-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-132" value="NO&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5FVr0X5BtPUz_qfZQi5-131">
+          <mxGeometry x="-0.2348" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-106" value="(Control The Sensors)&lt;br&gt;sensor1_stae or&lt;br&gt;sensor2_state or&lt;br&gt;sensor3_state" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-92.5" y="1070" width="196.25" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-107" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Send message&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;on bus&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;( &quot;Ther is an object .&quot; )&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1420" width="216.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-111" value="&lt;span&gt;Send message&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span&gt;on bus&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span&gt;&amp;nbsp;( &quot;Ther is an error about defined object.&quot; )&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1420" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-120" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-117" target="D5FVr0X5BtPUz_qfZQi5-107">
+          <mxGeometry x="-0.1304" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="1320" />
+              <mxPoint x="680" y="1460" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-117" target="D5FVr0X5BtPUz_qfZQi5-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="1320" />
+              <mxPoint x="420" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-123" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5FVr0X5BtPUz_qfZQi5-122">
+          <mxGeometry x="-0.0091" relative="1" as="geometry">
+            <mxPoint y="-12.919999999999998" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-117" value="canbus_object_msg&lt;br&gt;(from read the bus)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="453.75" y="1240" width="196.25" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-125" value="Send message&amp;nbsp;&lt;br&gt;on bus&lt;br&gt;&amp;nbsp;( &quot;Ther is an error about defined object.&quot; )" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1420" width="216.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-126" value="&lt;span&gt;Send message&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span&gt;on bus&lt;/span&gt;&lt;br style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span&gt;&amp;nbsp;( &quot;Ther is no any object.&quot; )&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="1420" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-127" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-130" target="D5FVr0X5BtPUz_qfZQi5-125">
+          <mxGeometry x="-0.1304" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-490" y="1320" />
+              <mxPoint x="-490" y="1460" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-130" target="D5FVr0X5BtPUz_qfZQi5-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-790" y="1460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-750" y="1320" />
+              <mxPoint x="-750" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-129" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5FVr0X5BtPUz_qfZQi5-128">
+          <mxGeometry x="-0.0091" relative="1" as="geometry">
+            <mxPoint y="-12.919999999999998" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D5FVr0X5BtPUz_qfZQi5-130" value="canbus_object_msg&lt;br&gt;(from read the bus)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-716.25" y="1240" width="196.25" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
