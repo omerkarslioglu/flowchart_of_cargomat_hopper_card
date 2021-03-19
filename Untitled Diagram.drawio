@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T15:02:28.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 OPR/74.0.3911.203" etag="58mw39VFRQk8nbtZzGUM" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-19T12:25:58.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36 OPR/74.0.3911.218" etag="YN7FSH9FFqLJXGCtRqx9" version="14.4.9" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="2074" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3170" dy="2083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,10 +94,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-24" target="MWrZeghzE-EOdqpb_YKr-3">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5FVr0X5BtPUz_qfZQi5-24" target="MWrZeghzE-EOdqpb_YKr-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-7" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWrZeghzE-EOdqpb_YKr-6">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-7" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MWrZeghzE-EOdqpb_YKr-6" vertex="1" connectable="0">
           <mxGeometry x="-0.2491" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -127,7 +127,7 @@
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-37" value="interrupt" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="202.5" y="660" width="91.25" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-40" target="MWrZeghzE-EOdqpb_YKr-20">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D5FVr0X5BtPUz_qfZQi5-40" target="MWrZeghzE-EOdqpb_YKr-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-40" value="Send message &lt;br&gt;on bus&lt;br&gt;&amp;nbsp;( &quot;There is an problem about switch and door is open according to the switch .&quot; )" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=0;" parent="1" vertex="1">
@@ -155,7 +155,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-50" target="D5FVr0X5BtPUz_qfZQi5-103">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D5FVr0X5BtPUz_qfZQi5-50" target="D5FVr0X5BtPUz_qfZQi5-103" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="323" y="735" />
@@ -374,7 +374,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-136" target="D5FVr0X5BtPUz_qfZQi5-140">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5FVr0X5BtPUz_qfZQi5-136" target="D5FVr0X5BtPUz_qfZQi5-140" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="850" y="-270" />
@@ -394,7 +394,7 @@
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-139" value="Count 10 second on timer0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="-60" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-17" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-140" target="MWrZeghzE-EOdqpb_YKr-16">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-17" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D5FVr0X5BtPUz_qfZQi5-140" target="MWrZeghzE-EOdqpb_YKr-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-140" value="lock_current_analog_value &amp;lt;= 200 ma&lt;br&gt;&lt;br&gt;each changed lights_flag" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -424,7 +424,7 @@
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-166" value="Light the led as red" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-29" y="1470" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-126" target="D5FVr0X5BtPUz_qfZQi5-6">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="D5FVr0X5BtPUz_qfZQi5-126" target="D5FVr0X5BtPUz_qfZQi5-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1029" y="1370" as="sourcePoint" />
             <Array as="points">
@@ -449,45 +449,45 @@
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-171" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="60" y="450" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-180" target="D5FVr0X5BtPUz_qfZQi5-183">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="D5FVr0X5BtPUz_qfZQi5-180" target="D5FVr0X5BtPUz_qfZQi5-183" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-180" value="Count 20 second on Timer1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-280" y="590" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D5FVr0X5BtPUz_qfZQi5-183" target="MWrZeghzE-EOdqpb_YKr-37">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D5FVr0X5BtPUz_qfZQi5-183" target="MWrZeghzE-EOdqpb_YKr-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-183" value="Light the led as blinking red" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-445" y="570" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-11" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWrZeghzE-EOdqpb_YKr-3" target="D5FVr0X5BtPUz_qfZQi5-40">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-11" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="MWrZeghzE-EOdqpb_YKr-3" target="D5FVr0X5BtPUz_qfZQi5-40" edge="1">
           <mxGeometry x="-0.2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-13" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWrZeghzE-EOdqpb_YKr-3" target="MWrZeghzE-EOdqpb_YKr-12">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-13" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MWrZeghzE-EOdqpb_YKr-3" target="MWrZeghzE-EOdqpb_YKr-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-3" value="sw_open_door_state ==&amp;nbsp;&lt;span&gt;&lt;br&gt;sw_close_door_state&amp;nbsp;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-3" value="sw_open_door_state ==&amp;nbsp;&lt;span&gt;&lt;br&gt;sw_close_door_state&amp;nbsp;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-485" y="110" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-9" value="Light the led as red" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-9" value="Light the led as red" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-880" y="135" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWrZeghzE-EOdqpb_YKr-12" target="MWrZeghzE-EOdqpb_YKr-9">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MWrZeghzE-EOdqpb_YKr-12" target="MWrZeghzE-EOdqpb_YKr-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-12" value="Send message &lt;br&gt;on bus&lt;br&gt;&amp;nbsp;( &quot;There is an problem about switch , change the switch and check to way /wire of the switch .&quot; )" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=0;" vertex="1" parent="1">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-12" value="Send message &lt;br&gt;on bus&lt;br&gt;&amp;nbsp;( &quot;There is an problem about switch , change the switch and check to way /wire of the switch .&quot; )" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="-720" y="125" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWrZeghzE-EOdqpb_YKr-16" target="D5FVr0X5BtPUz_qfZQi5-142">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MWrZeghzE-EOdqpb_YKr-16" target="D5FVr0X5BtPUz_qfZQi5-142" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-16" value="solenoid_state=&lt;br&gt;!solenoid_state" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-16" value="solenoid_state=&lt;br&gt;!solenoid_state" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="-60" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWrZeghzE-EOdqpb_YKr-20" target="D5FVr0X5BtPUz_qfZQi5-171">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MWrZeghzE-EOdqpb_YKr-20" target="D5FVr0X5BtPUz_qfZQi5-171" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-648" y="-150" />
@@ -496,47 +496,65 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-23" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWrZeghzE-EOdqpb_YKr-22">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-23" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MWrZeghzE-EOdqpb_YKr-22" vertex="1" connectable="0">
           <mxGeometry x="-0.4331" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-20" value="(Control The Sensors)&lt;br&gt;sensor1_stae or&lt;br&gt;sensor2_state or&lt;br&gt;sensor3_state == 0&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;solenoid_state == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-20" value="(Control The Sensors)&lt;br&gt;sensor1_stae or&lt;br&gt;sensor2_state or&lt;br&gt;sensor3_state == 0&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;solenoid_state == 0" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-746.25" y="-130" width="196.25" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-26" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="MWrZeghzE-EOdqpb_YKr-29" source="MWrZeghzE-EOdqpb_YKr-20">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-26" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="MWrZeghzE-EOdqpb_YKr-20" target="MWrZeghzE-EOdqpb_YKr-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-746.25" y="-50" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-27" value="Light the led as red" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-27" value="Light the led as red" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1080" y="-90" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MWrZeghzE-EOdqpb_YKr-29" target="MWrZeghzE-EOdqpb_YKr-27">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MWrZeghzE-EOdqpb_YKr-29" target="MWrZeghzE-EOdqpb_YKr-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-29" value="Send message &lt;br&gt;on bus&lt;br&gt;&amp;nbsp;( &quot;There is an problem about switch , try lock the door and reset.&quot; )" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=0;" vertex="1" parent="1">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-29" value="Send message &lt;br&gt;on bus&lt;br&gt;&amp;nbsp;( &quot;There is an problem about switch , try lock the door and reset.&quot; )" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="-940" y="-90" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWrZeghzE-EOdqpb_YKr-37" target="MWrZeghzE-EOdqpb_YKr-42">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MWrZeghzE-EOdqpb_YKr-37" target="MWrZeghzE-EOdqpb_YKr-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-37" value="Count 120 second on Timer1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-37" value="Count 120 second on Timer1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-630" y="590" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-41" value="Light the led as red" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-41" value="Light the led as red" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1000" y="570" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MWrZeghzE-EOdqpb_YKr-42">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MWrZeghzE-EOdqpb_YKr-42" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-880" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-42" value="Send message &lt;br&gt;on bus&lt;br&gt;&amp;nbsp;( &quot;There is an problem about closing to door . Probably closing the door is forgetten. Therefore door is open. Try to close the door.&quot;)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=0;" vertex="1" parent="1">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-42" value="Send message &lt;br&gt;on bus&lt;br&gt;&amp;nbsp;( &quot;There is an problem about closing to door . Probably closing the door is forgetten. Therefore door is open. Try to close the door.&quot;)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="-820" y="560" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="MWrZeghzE-EOdqpb_YKr-47" value="&lt;h1&gt;&lt;span&gt;Notes&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Controlling value&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;span style=&quot;text-align: center&quot;&gt;lights_flag&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MWrZeghzE-EOdqpb_YKr-47" value="&lt;h1&gt;&lt;span&gt;Notes&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Controlling value&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;span style=&quot;text-align: center&quot;&gt;lights_flag&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-951" y="-700" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TMOTBb1_mHH05H9EB2tt-1" value="Error Code : 0xE001" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-926" y="-5" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TMOTBb1_mHH05H9EB2tt-2" value="Error Code : 0xE002" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-718.12" y="225" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TMOTBb1_mHH05H9EB2tt-3" value="Error Code : 0xE003" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="670" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TMOTBb1_mHH05H9EB2tt-4" value="Error Code : 0xE004" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="1265" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TMOTBb1_mHH05H9EB2tt-5" value="Error Code : 0xE005" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="1265" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TMOTBb1_mHH05H9EB2tt-6" value="Error Code : 0xE005" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="195" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
