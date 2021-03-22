@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T09:29:56.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36 OPR/74.0.3911.218" etag="4AH44FZUB9uzIEZZVDRi" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T09:53:42.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36 OPR/74.0.3911.218" etag="gwfB2yFZxGYR1s_XiSuE" version="14.4.9" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="1790" dy="1261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,7 +245,7 @@
           <mxGeometry x="-250" y="240" width="91.25" height="90" as="geometry" />
         </mxCell>
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-91" value="The door is closed by user ." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="430" y="610" width="80" height="20" as="geometry" />
+          <mxGeometry x="430" y="590" width="70.62" height="60" as="geometry" />
         </mxCell>
         <mxCell id="D5FVr0X5BtPUz_qfZQi5-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="D5FVr0X5BtPUz_qfZQi5-96" target="D5FVr0X5BtPUz_qfZQi5-180" edge="1">
           <mxGeometry relative="1" as="geometry" />
